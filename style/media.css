@@ -1,0 +1,243 @@
+@media (max-width: 1336px) {
+    .modal-content{
+        width: 40%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+    .conteiner{
+        max-width: 70%;
+    }
+
+    .createSub{
+        font-size: 1.8vw;
+    }
+
+    form .inp{
+        font-size: 1.8vw;
+    }
+
+    .modal-content{
+        width: 50%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .conteiner{
+        max-width: 80%;
+    }
+
+    .createSub{
+        font-size: 2.5vw;
+    }
+
+    .textarea{
+        font-size: 2.5vw;
+        height: 85px;
+    }
+
+    form .inp{
+        font-size: 2.5vw;
+    }
+
+    .modal-content{
+        width: 80%;
+    }
+
+    .task .sub{
+        font-size: 16px !important;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .conteiner{
+        max-width: 80%;
+    }
+
+    .createSub{
+        font-size: 4vw;
+    }
+
+    .textarea{
+        font-size: 4vw;
+        height: 85px;
+        width: 90%;
+    }
+    
+    form .sub{
+        width: 30%;
+    }
+
+    form{
+        width: auto;
+    }
+
+    form .inp{
+        font-size: 4vw;
+        width: 70%;
+    }
+
+    .modal-content{
+        width: 80%;
+    }
+
+    .task-conteiner{
+        font-size: 16px;
+    }
+    
+    .control-block .create{
+        font-size: 15px;
+    }
+
+    .sort-conteiner form{
+        flex-direction: column;
+    }
+
+    .modal-head{
+        font-size: 19px;
+    }
+
+    .sort-conteiner form select option{
+        font-size: 14px;
+    }
+
+    .form-conteiner{
+        width: 80%;
+    }
+
+    .form-conteiner form .inp{
+        width: 80%;
+
+    }
+
+    .form-conteiner form .sub{
+        width: 30%;
+    }
+
+    .head-conteiner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .navigation a{
+        margin: 0;
+    }
+
+    .navigation{
+        justify-content: space-around;
+        width: 100%;
+    }
+
+   .task-conteiner .task .sub{
+        font-size: 16px ;
+        width: 30%;
+    }
+}
+
+
+
+@media (min-width: 350px) and (max-width: 400px) {
+    .conteiner{
+        max-width: 80%;
+    }
+
+    .createSub{
+        font-size: 4vw;
+    }
+
+    .textarea{
+        font-size: 4vw;
+        height: 85px;
+        width: 90%;
+    }
+    
+    form .sub{
+        width: 30%;
+    }
+
+    form{
+        width: auto;
+    }
+
+    form .inp{
+        font-size: 4vw;
+        width: 70%;
+    }
+
+    .modal-content{
+        width: 80%;
+    }
+
+    .task-conteiner{
+        font-size: 14px;
+    }
+    
+    .control-block .create{
+        font-size: 15px;
+    }
+
+    .sort-conteiner form{
+        flex-direction: column;
+    }
+
+    .modal-head{
+        font-size: 19px;
+    }
+
+    .sort-conteiner form select option{
+        font-size: 14px;
+    }
+
+    .form-conteiner{
+        width: 80%;
+    }
+
+
+
+    .form-conteiner form .inp{
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .form-conteiner form .sub{
+        width: 35%;
+        font-size: 18px;
+    }
+
+    .head-conteiner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .auth{
+        font-size: 24px;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .navigation a{
+        margin: 0;
+        font-size: 15px;
+
+    }
+
+    .navigation{
+        justify-content: space-around;
+        width: 100%;
+        font-size: 13px;
+    }
+
+   .task-conteiner .task .sub{
+        font-size: 15px ;
+        width: 35%;
+    }
+
+
+}

@@ -1,0 +1,37 @@
+.header{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    background-color: #7b2cbf;
+    border-bottom: 2px solid #ffffff ;
+}
+
+.head-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+}
+
+.navigation{
+display: flex;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #e0aaff;
+    margin-right: 35px;
+    font-size: 22px;
+}
+.navigation a:hover{
+    color: #9d4edd;
+}
+
+.logo{
+    margin-left: 35px;
+    font-size: 36px;
+    color: #e0aaff;
+}

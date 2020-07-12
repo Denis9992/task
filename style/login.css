@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #7b2cbf;
+    background-color: #c77dff;
+    height: 100vh;
+}
+
+.conteiner{
+    max-width: 980px;
+    margin: 0 auto;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-conteiner{
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    border: 2px solid #7124e1;
+    padding: 15px;
+    border-radius: 10px;
+
+    color : #8108f2;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.form-conteiner form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+}
+
+.auth{
+    margin: 10px;
+    font-size: 26px;
+}
+
+.form-conteiner form .inp{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.form-conteiner form .sub{
+    width: 20%;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #7400b7;
+    background-color: #b064f2;
+    margin: 5px;
+}
+
+.form-conteiner form .sub:hover , .form-conteiner form input:hover{
+    color: #d07eff;
+    background-color: #521b82;
+    cursor : pointer;
+}
+
+.form-conteiner form input{
+    border : 1px solid #7b2cbf;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #7400b7;
+    background-color: #b064f2;
+    font-family: 'Roboto', sans-serif;
+}

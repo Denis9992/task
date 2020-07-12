@@ -1,0 +1,44 @@
+.admtext{
+    width: inherit;
+    background-color: #c77dff;
+    font-size: 20px;
+    font-weight: 600;
+    height: 65px;
+    font-family: 'Roboto', sans-serif;
+    color: #8108f2;
+}
+
+.task .sub{
+    width: 20%;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #7400b7;
+    background-color: #b064f2;
+    margin: 5px;
+    border: 1px solid #7b2cbf;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #7400b7;
+    background-color: #b064f2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.task .sub:hover ,  form input:hover , .textarea:hover{
+    color: #d07eff;
+    background-color: #521b82;
+    cursor : pointer;
+}
+
+.labelch{
+    display: inline-flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.labelch .check{
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    padding: 2px;
+
+}
+
